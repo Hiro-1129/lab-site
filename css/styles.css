@@ -65,3 +65,18 @@ footer{
 h1{ font-size: 28px; margin: 0 0 10px; }
 h2{ font-size: 20px; margin: 24px 0 10px; }
 small{ color:#555; }
+
+.pub-list{
+  list-style: none;
+  padding-left: 0;
+}
+.pub-list li{
+  margin-bottom: 14px;
+}
+.pub-list em{
+  font-style: italic;
+}
+.pub-list a{
+  margin-left: 6px;
+  font-size: 0.9em;
+}
