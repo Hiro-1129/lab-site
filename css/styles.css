@@ -21,7 +21,7 @@ header{
 .container{
   max-width: var(--maxw);
   margin: 0 auto;
-  padding: 0 var(--pad);
+  padding: 0 16px 0 32px; /* 上 右 下 左 */
 }
 
 nav{
