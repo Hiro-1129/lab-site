@@ -80,3 +80,40 @@ small{ color:#555; }
   margin-left: 6px;
   font-size: 0.9em;
 }
+
+
+/* === Publications readability === */
+
+.pub-year {
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+.pub-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.pub-list li {
+  margin-bottom: 18px;
+  line-height: 1.7;
+}
+
+.pub-authors {
+  font-size: 0.95rem;
+}
+
+.pub-title {
+  display: block;
+  margin: 4px 0;
+}
+
+.pub-journal {
+  font-style: italic;
+}
+
+.pub-doi {
+  display: block;
+  margin-top: 2px;
+  font-size: 0.85rem;
+}
