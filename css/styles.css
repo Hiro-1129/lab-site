@@ -134,3 +134,16 @@ main h2{
   margin: 6px 0 26px 0;
   padding-left: 1.4rem;   /* 番号用のインデントはここだけ */
 }
+
+/* Hero image */
+.hero-image{
+  margin: 16px 0 18px;
+  text-align: center;
+}
+
+.hero-image img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
