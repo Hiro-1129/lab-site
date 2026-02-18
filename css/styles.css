@@ -147,3 +147,38 @@ main h2{
   border-radius: 14px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.08);
 }
+
+.profile-card {
+  padding: 2rem;
+}
+
+.profile-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.profile-text {
+  flex: 2;
+}
+
+.profile-image {
+  flex: 1;
+  text-align: center;
+}
+
+.profile-image img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* スマホ対応 */
+@media (max-width: 768px) {
+  .profile-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
