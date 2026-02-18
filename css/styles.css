@@ -148,71 +148,38 @@ main h2{
   box-shadow: 0 6px 18px rgba(0,0,0,0.08);
 }
 
-.profile-card {
-  padding: 2rem;
-}
-
-.profile-content {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-}
-
-.profile-text {
-  flex: 2;
-}
-
-.profile-image {
-  flex: 1;
-  text-align: center;
-}
-
-.profile-image img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 50%;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-/* スマホ対応 */
-@media (max-width: 768px) {
-  .profile-content {
-    flex-direction: column;
-    text-align: center;
-  }
-
-.profile-wrapper {
+/* === Profile layout (PC: text left, photo right) === */
+.profile-wrapper{
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 40px;
 }
 
-.profile-text {
+.profile-text{
   flex: 1 1 65%;
 }
 
-.profile-photo {
-  flex: 1 1 35%;
+.profile-photo{
+  flex: 0 0 220px;
   text-align: right;
 }
 
-.profile-photo img {
+.profile-photo img{
   width: 220px;
   height: 220px;
   object-fit: cover;
-  border-radius: 12px;   /* 丸にしたいなら50% */
+  border-radius: 12px; /* 丸なら 50% */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-/* スマホ */
-@media (max-width: 768px) {
-  .profile-wrapper {
+/* Mobile */
+@media (max-width: 768px){
+  .profile-wrapper{
     flex-direction: column;
     text-align: center;
   }
-
-  .profile-photo {
+  .profile-photo{
     text-align: center;
   }
 }
