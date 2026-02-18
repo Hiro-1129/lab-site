@@ -166,8 +166,8 @@ main h2{
 }
 
 .profile-photo img{
-  width: 220px;
-  height: 220px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border-radius: 12px; /* 丸なら 50% */
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
