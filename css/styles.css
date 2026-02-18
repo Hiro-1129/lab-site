@@ -181,4 +181,38 @@ main h2{
     flex-direction: column;
     text-align: center;
   }
+
+.profile-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.profile-text {
+  flex: 1 1 65%;
+}
+
+.profile-photo {
+  flex: 1 1 35%;
+  text-align: right;
+}
+
+.profile-photo img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;   /* 丸にしたいなら50% */
+}
+
+/* スマホ */
+@media (max-width: 768px) {
+  .profile-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-photo {
+    text-align: center;
+  }
 }
